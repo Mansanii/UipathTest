@@ -340,7 +340,7 @@
           <av:Size x:Key="ShapeSize">200,54</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Welcome to Dev Ops Env&quot;]">
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,54" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Welcome to Dev Ops Env&quot;  +&quot;Hello&quot;]">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
